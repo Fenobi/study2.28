@@ -76,6 +76,9 @@ void FindBoard(char mine[ROWS][COLS], char show[ROWS][COLS], int row, int col)
 		//DisPlayBoard(show, ROW, COL);
 		scanf("%d%d", &x, &y);
 		
+		//DisPlayBoard(mine, ROW, COL);
+		scanf("%d%d", &x, &y);
+		system("cls");
 		if (x >= 1 && x <= 9 && y >= 1 && y <= 9)
 		{
 			if (mine[x][y] == '1')

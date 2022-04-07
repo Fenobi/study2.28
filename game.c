@@ -19,7 +19,7 @@ void game()
 	system("cls");
 	//¥Ú”°∆Â≈Ã
 	DisPlayBoard(show, ROW, COL); 
-	
+
 	//…Ë÷√¿◊
 	SetBoard(mine, ROW, COL);
 	//DisPlayBoard(mine, ROW, COL);
